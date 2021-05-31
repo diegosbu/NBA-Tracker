@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    display: flex;
+    color: blue;
+    justify-content: center;
+}
+
+#nav-bar {
+    background-color: grey;
+    padding-left: 1%;
+}
+
+#nav-bar a {
+    text-decoration: none;
+}
+
+#nav-bar a.active {
+    color: white;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+#search input[type=text] {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
