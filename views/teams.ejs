@@ -9,13 +9,41 @@
 
     <body>
 
-        <h1>NBA Tracker</h1>
+        <header>
+            <h1>NBA Tracker</h1>
+            <img id = "NBA Logo" src = "/public/images/NBA-Logo.png" style="width:256px;height:128px;">
+        </header>
 
         <nav id = "nav-bar">
             <a href = "/"> Home </a>
+            &nbsp;
+            <a href = "/"> About </a>
         </nav>
 
-        <h2>Current Team</h2>
+        <div class = "content">
+
+        <h2 id = "question"> You're a <%= teamn %> fan! </h2>
+
+        <table id = "Scoreboard">
+            <tr>
+                <th>
+                    Home Team
+                </th>
+                <th>
+                    Score
+                </th>
+                <th>
+                    Away Team
+                </th>
+                <th>
+                    Score
+                </th>
+            </tr>
+        </table>
+
+        </div>
         
+        <footer class = "footer"> Created by Diego Sanchez </footer>
+
     </body>
 </html>

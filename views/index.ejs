@@ -9,109 +9,119 @@
 
     <body>
 
-        <h1>NBA Tracker</h1>
+        <header>
+            <h1>NBA Tracker</h1>
+            <img id = "NBA Logo" src = "/public/images/NBA-Logo.png" style="width:256px;height:128px;">
+        </header>
 
         <nav id = "nav-bar">
             <a href = "/"> Home </a>
+            &nbsp;
+            <a href = "/"> About </a>
         </nav>
 
-        <h2>What's your favorite team?</h2>
+        <div class = "content">
+
+        <h2 id = "question"> What's your favorite team? </h2>
 
         <div id = "teams">
-            <a href = "/teams">
-                <img id = "Knicks" src="/public/images/Knicks.png" style="width:128px;height:128px;">  
+            <a href = "/teams/Knicks">
+                <img id = "Knicks" src="/public/images/team logos/Knicks.png">  
             </a>
-            <a href = "/teams">
-                <img id = "Mavs" src="/public/images/Mavs.png" style="width:128px;height:128px;">
+            <a href = "/teams/Mavs">
+                <img id = "Mavs" src="/public/images/team logos/Mavs.png">
             </a>
-            <a href = "/teams">
-                <img id = "Cavs" src="/public/images/Cavaliers.png" style="width:128px;height:128px;">
+            <a href = "/teams/Cavs">
+                <img id = "Cavs" src="/public/images/team logos/Cavaliers.png">
             </a>
-            <a href = "/teams">
-                <img id = "Hawks" src="/public/images/Hawks.png" style="width:128px;height:128px;">
+            <a href = "/teams/Hawks">
+                <img id = "Hawks" src="/public/images/team logos/Hawks.png">
             </a>
-            <a href = "/teams">
-                <img id = "Heat" src="/public/images/Heat.png" style="width:128px;height:128px;">
+            <a href = "/teams/Heat">
+                <img id = "Heat" src="/public/images/team logos/Heat.png">
             </a>
-            <a href = "/teams">
-                <img id = "Blazers" src="/public/images/TrailBlazers.png" style="width:128px;height:128px;">
+            <a href = "/teams/Blazers">
+                <img id = "Blazers" src="/public/images/team logos/TrailBlazers.png">
             </a>
-            <a href = "/teams">
-                <img id = "Wolves" src="/public/images/Timberwolves.png" style="width:128px;height:128px;">
+            <a href = "/teams/Wolves">
+                <img id = "Wolves" src="/public/images/team logos/Timberwolves.png">
             </a>
-            <a href = "/teams">
-                <img id = "Lakers" src="/public/images/Lakers.png" style="width:128px;height:128px;">
+            <a href = "/teams/Lakers">
+                <img id = "Lakers" src="/public/images/team logos/Lakers.png">
             </a>
-            <a href = "/teams">
-                <img id = "Nets" src="/public/images/Nets.png" style="width:128px;height:128px;">
+            <a href = "/teams/Nets">
+                <img id = "Nets" src="/public/images/team logos/Nets.png">
             </a>
-            <a href = "/teams">
-                <img id = "Clippers" src="/public/images/Clippers.png" style="width:128px;height:128px;">
+            <a href = "/teams/Clippers">
+                <img id = "Clippers" src="/public/images/team logos/Clippers.png">
             </a>
-            <a href = "/teams">
-                <img id = "Celtics" src="/public/images/Celtics.png" style="width:128px;height:128px;">
+            <a href = "/teams/Celtics">
+                <img id = "Celtics" src="/public/images/team logos/Celtics.png">
             </a>
-            <a href = "/teams">
-                <img id = "Pistons" src="/public/images/Pistons.png" style="width:128px;height:128px;">
+            <a href = "/teams/Pistons">
+                <img id = "Pistons" src="/public/images/team logos/Pistons.png">
             </a>
-            <a href = "/teams">
-                <img id = "Pelicans" src="/public/images/Pelicans.png" style="width:128px;height:128px;">
+            <a href = "/teams/Pelicans">
+                <img id = "Pelicans" src="/public/images/team logos/Pelicans.png">
             </a>
-            <a href = "/teams">
-                <img id = "Hornets" src="/public/images/Hornets.png" style="width:128px;height:128px;">
+            <a href = "/teams/Hornets">
+                <img id = "Hornets" src="/public/images/team logos/Hornets.png">
             </a>
-            <a href = "/teams">
-                <img id = "Jazz" src="/public/images/Jazz.png" style="width:128px;height:128px;">
+            <a href = "/teams/Jazz">
+                <img id = "Jazz" src="/public/images/team logos/Jazz.png">
             </a>
-            <a href = "/teams">
-                <img id = "Raptors" src="/public/images/Raptors.png" style="width:128px;height:128px;">
+            <a href = "/teams/Raptors">
+                <img id = "Raptors" src="/public/images/team logos/Raptors.png">
             </a>
-            <a href = "/teams">
-                <img id = "Spurs" src="/public/images/Spurs.png" style="width:128px;height:128px;">
+            <a href = "/teams/Spurs">
+                <img id = "Spurs" src="/public/images/team logos/Spurs.png">
             </a>
-            <a href = "/teams">
-                <img id = "Suns" src="/public/images/Suns.png" style="width:128px;height:128px;">
+            <a href = "/teams/Suns">
+                <img id = "Suns" src="/public/images/team logos/Suns.png">
             </a>
-            <a href = "/teams">
-                <img id = "Warriors" src="/public/images/Warriors.png" style="width:128px;height:128px;">
+            <a href = "/teams/Warriors">
+                <img id = "Warriors" src="/public/images/team logos/Warriors.png">
             </a>
-            <a href = "/teams">
-                <img id = "Grizzlies" src="/public/images/Grizzlies.png" style="width:128px;height:128px;">
+            <a href = "/teams/Grizzlies">
+                <img id = "Grizzlies" src="/public/images/team logos/Grizzlies.png">
             </a>
-            <a href = "/teams">
-                <img id = "Wizards" src="/public/images/Wizards.png" style="width:128px;height:128px;">
+            <a href = "/teams/Wizards">
+                <img id = "Wizards" src="/public/images/team logos/Wizards.png">
             </a>
-            <a href = "/teams">
-                <img id = "Rockets" src="/public/images/Rockets.png" style="width:128px;height:128px;">
+            <a href = "/teams/Rockets">
+                <img id = "Rockets" src="/public/images/team logos/Rockets.png">
             </a>
-            <a href = "/teams">
-                <img id = "OKC" src="/public/images/OKC.png" style="width:128px;height:128px;">
+            <a href = "/teams/OKC">
+                <img id = "OKC" src="/public/images/team logos/OKC.png">
             </a>
-            <a href = "/teams">
-                <img id = "Nuggets" src="/public/images/Nuggets.png" style="width:128px;height:128px;">
+            <a href = "/teams/Nuggets">
+                <img id = "Nuggets" src="/public/images/team logos/Nuggets.png">
             </a>
-            <a href = "/teams">
-                <img id = "Nets" src="/public/images/Nets.png" style="width:128px;height:128px;">
+            <a href = "/teams/Nets">
+                <img id = "Nets" src="/public/images/team logos/Nets.png">
             </a>
-            <a href = "/teams">
-                <img id = "76ers" src="/public/images/76ers.png" style="width:128px;height:128px;">
+            <a href = "/teams/76ers">
+                <img id = "76ers" src="/public/images/team logos/76ers.png">
             </a>
-            <a href = "/teams">
-                <img id = "Magic" src="/public/images/Magic.png" style="width:128px;height:128px;">
+            <a href = "/teams/Magic">
+                <img id = "Magic" src="/public/images/team logos/Magic.png">
             </a>
-            <a href = "/teams">
-                <img id = "Bulls" src="/public/images/Bulls.png" style="width:128px;height:128px;">
+            <a href = "/teams/Bulls">
+                <img id = "Bulls" src="/public/images/team logos/Bulls.png">
             </a>
-            <a href = "/teams">
-                <img id = "Bucks" src="/public/images/Bucks.png" style="width:128px;height:128px;">
+            <a href = "/teams/Bucks">
+                <img id = "Bucks" src="/public/images/team logos/Bucks.png">
             </a>
-            <a href = "/teams">
-                <img id = "Kings" src="/public/images/Kings.png" style="width:128px;height:128px;">
+            <a href = "/teams/Kings">
+                <img id = "Kings" src="/public/images/team logos/Kings.png">
             </a>
-            <a href = "/teams">
-                <img id = "Pacers" src="/public/images/Pacers.png" style="width:128px;height:128px;">
+            <a href = "/teams/Pacers">
+                <img id = "Pacers" src="/public/images/team logos/Pacers.png">
             </a>
         </div>
+        </div>
         
+        <footer class = "footer"> Created by Diego Sanchez </footer>
+
     </body>
 </html>

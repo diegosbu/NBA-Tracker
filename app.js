@@ -17,11 +17,12 @@ app.use("/public", express.static("public"));
 // Routes
 
 app.get("/", (req, res) => {
-    res.render("index")
+    res.render("index");
 })
 
-app.get("/teams", (req, res) => {
-    res.render("teams")
+app.get("/teams/:tname", (req, res) => {
+    var tname = req.params.tname;
+    res.render("teams", {teamn: tname});
 })
 
 // Server
