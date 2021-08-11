@@ -24,7 +24,7 @@
 
         <h2 id = "question"> You're a <%= teamn %> fan! </h2>
 
-        <table id = "Scoreboard">
+        <table id = "scoreboard">
             <tr>
                 <th>
                     Home Team
@@ -38,7 +38,16 @@
                 <th>
                     Score
                 </th>
+                
             </tr>
+            <% Object.keys(games).forEach(function(key) { %>
+            <tr>
+                <td> <%= games[key].home_team.name %> </td>
+                <td> <%= games[key].home_team_score %> </td>
+                <td> <%= games[key].visitor_team.name %> </td>
+                <td> <%= games[key].visitor_team_score %> </td>
+            </tr>
+            <% }); %>
         </table>
 
         </div>

@@ -68,9 +68,15 @@ h1 {
     flex: 1 0 auto;
 }
 
-#scoreboard {
+/* Scoreboard */
+
+#scoreboard, th, td {
     border: 1px solid black;
-    border-collapse: collapse;  
+    border-collapse: collapse;
+}
+
+#scoreboard {
+    width: 100%;   
 }
 
 /* Team logos */
